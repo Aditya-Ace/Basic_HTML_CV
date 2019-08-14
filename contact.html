@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>My Contact Details</title>
+	</head>
+	<body>
+		<center>
+			<hr size="3" noshade grey />
+			<h1>Contact Details</h1>
+			<h3>Direct Contact</h3>
+			<p>Phone : 7987365166</p>
+			<p>Email: aditya.ace@hotmail.com</p>
+			<h3>You can also contact me by filling out the details below</h3>
+			<form
+				action="mailto:aditya.ace@hotmail.com"
+				method="POST"
+				enctype="text/plain"
+			>
+				<label>Your Name:</label>
+				<input type="text" name="You Name" />
+				<br />
+				<br />
+				<label>Email:</label>
+				<input type="email" name="Your E-mail" id="email" />
+				<br />
+				<br />
+				<label for="reason">Reason to Contact Me:</label>
+				<br /><br />
+				<textarea id="reason" name="Reason" rows="5" cols="33">
+          I want to Contact you because
+        </textarea>
+				<br />
+				<br />
+				<input type="submit" />
+				<br /><br />
+			</form>
+			<footer>All Rights Reserved || Aditya Tiwari || 2019</footer>
+		</center>
+		<hr size="3" noshade grey />
+	</body>
+</html>
